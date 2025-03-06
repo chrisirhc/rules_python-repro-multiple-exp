@@ -14,19 +14,19 @@ python.toolchain(
 python.toolchain(
     python_version = "3.11",
 )
-
+use_repo(python, "python_3_11", "python_3_9", "python_versions")
 pip = use_extension("@rules_python//python/extensions:pip.bzl", "pip")
 
 pip.parse(
     envsubst = ["PIP_INDEX_URL"],
-    experimental_index_url = "${PIP_INDEX_URL:-https://pypi.org/simple}",
+    experimental_index_url = "https://pypi.org/simple",
     hub_name = "pip",
     python_version = "3.9",
     requirements_lock = "requirements_3_9.txt",
 )
 pip.parse(
     envsubst = ["PIP_INDEX_URL"],
-    experimental_index_url = "${PIP_INDEX_URL:-https://pypi.org/simple}",
+    experimental_index_url = "https://pypi.org/simple",
     hub_name = "pip",
     python_version = "3.11",
     requirements_lock = "requirements_3_11.txt",

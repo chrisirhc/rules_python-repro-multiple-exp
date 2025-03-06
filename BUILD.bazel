@@ -1,8 +1,18 @@
 load("@rules_python//python:py_library.bzl", "py_library")
 load("@pip//:requirements.bzl", "all_data_requirements", "all_requirements", "all_whl_requirements", "requirement")
+load("@python_versions//3.11:defs.bzl", gpy_binary_3_11 = "py_binary", gpy_test_3_11 = "py_test")
 
 py_library(
     name = "example_py_library",
+    srcs = ["example_py_library.py"],
+    deps = [
+        requirement("wheel"),
+    ]
+)
+
+gpy_binary_3_11(
+    name = "example_py_library_3_11",
+    main = "example_py_library.py",
     srcs = ["example_py_library.py"],
     deps = [
         requirement("wheel"),
