@@ -6,7 +6,7 @@ py_library(
     name = "example_py_library",
     srcs = ["example_py_library.py"],
     deps = [
-        requirement("wheel"),
+        requirement("python-bidi"),
     ]
 )
 
@@ -15,6 +15,6 @@ gpy_binary_3_11(
     main = "example_py_library.py",
     srcs = ["example_py_library.py"],
     deps = [
-        requirement("wheel"),
+        requirement("python-bidi"),
     ]
 )
