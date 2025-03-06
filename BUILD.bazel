@@ -1,0 +1,10 @@
+load("@rules_python//python:py_library.bzl", "py_library")
+load("@pip//:requirements.bzl", "all_data_requirements", "all_requirements", "all_whl_requirements", "requirement")
+
+py_library(
+    name = "example_py_library",
+    srcs = ["example_py_library.py"],
+    deps = [
+        requirement("wheel"),
+    ]
+)
