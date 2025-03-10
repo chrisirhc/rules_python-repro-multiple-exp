@@ -22,14 +22,16 @@ pip.parse(
     experimental_index_url = "https://pypi.org/simple",
     hub_name = "pip",
     python_version = "3.9",
-    requirements_lock = "requirements_3_9.txt",
+    requirements_linux = "requirements_3_9.txt",
+    requirements_darwin = "requirements_3_9_darwin.txt",
 )
 pip.parse(
     envsubst = ["PIP_INDEX_URL"],
     experimental_index_url = "https://pypi.org/simple",
     hub_name = "pip",
     python_version = "3.11",
-    requirements_lock = "requirements_3_11.txt",
+    requirements_linux = "requirements_3_11.txt",
+    requirements_darwin = "requirements_3_11_darwin.txt",
 )
 
 use_repo(pip, "pip")

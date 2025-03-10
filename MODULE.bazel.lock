@@ -270,15 +270,17 @@
     },
     "@@rules_python~//python/extensions:pip.bzl%pip": {
       "general": {
-        "bzlTransitiveDigest": "0eV8vIJ/YMKrF7h9QPiiZoAreRS/Zlx1tmPHJaesnf8=",
-        "usagesDigest": "LXHvOt+iTi/sLuJa4n+gvMUuUAFoqiIWyxh+ms1qIK4=",
+        "bzlTransitiveDigest": "lcFVXw0osCO1uDu2J94NUvXymytBUZ597OlEuhj3Xgg=",
+        "usagesDigest": "FV4beX7k3ANZ0HhgNaa5FMqueMVlSFxd23awcIah5ow=",
         "recordedFileInputs": {
           "@@//requirements_3_9.txt": "4b8a5d65157f28fc10a6921a8841da35cdceb5e86051a79da4db6b8cc48f7c82",
           "@@//requirements_3_11.txt": "aa482ae0d7436bf01baa871eb99d5177c117fedf6192bf940ed5add772c4e247",
           "@@rules_python~//tools/publish/requirements_linux.txt": "d576e0d8542df61396a9b38deeaa183c24135ed5e8e73bb9622f298f2671811e",
           "@@rules_fuzzing~//fuzzing/requirements.txt": "ab04664be026b632a0d2a2446c4f65982b7654f5b6851d2f9d399a19b7242a5b",
           "@@rules_python~//tools/publish/requirements_windows.txt": "d18538a3982beab378fd5687f4db33162ee1ece69801f9a451661b1b64286b76",
+          "@@//requirements_3_9_darwin.txt": "81e566e2c931757ec8a9a2644c42cc6b761b8715931d635cbdd1b303ed7415b0",
           "@@protobuf~//python/requirements.txt": "983be60d3cec4b319dcab6d48aeb3f5b2f7c3350f26b3a9e97486c37967c73c5",
+          "@@//requirements_3_11_darwin.txt": "23297b128ff435d9c1ec4ede415cecf776bdbd5b37d759b4c2efe1b42c3f3523",
           "@@rules_python~//tools/publish/requirements_darwin.txt": "095d4a4f3d639dce831cd493367631cd51b53665292ab20194bac2c0c6458fa8"
         },
         "recordedDirentsInputs": {},
@@ -303,8 +305,7 @@
                 "cp311_linux_s390x",
                 "cp311_linux_x86_64",
                 "cp311_osx_aarch64",
-                "cp311_osx_x86_64",
-                "cp311_windows_x86_64"
+                "cp311_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp311-cp311-macosx_10_12_x86_64.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
@@ -331,8 +332,7 @@
                 "cp311_linux_s390x",
                 "cp311_linux_x86_64",
                 "cp311_osx_aarch64",
-                "cp311_osx_x86_64",
-                "cp311_windows_x86_64"
+                "cp311_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp311-cp311-macosx_11_0_arm64.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
@@ -359,8 +359,7 @@
                 "cp311_linux_s390x",
                 "cp311_linux_x86_64",
                 "cp311_osx_aarch64",
-                "cp311_osx_x86_64",
-                "cp311_windows_x86_64"
+                "cp311_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
@@ -387,8 +386,7 @@
                 "cp311_linux_s390x",
                 "cp311_linux_x86_64",
                 "cp311_osx_aarch64",
-                "cp311_osx_x86_64",
-                "cp311_windows_x86_64"
+                "cp311_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp311-cp311-manylinux_2_17_armv7l.manylinux2014_armv7l.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
@@ -415,8 +413,7 @@
                 "cp311_linux_s390x",
                 "cp311_linux_x86_64",
                 "cp311_osx_aarch64",
-                "cp311_osx_x86_64",
-                "cp311_windows_x86_64"
+                "cp311_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
@@ -443,8 +440,7 @@
                 "cp311_linux_s390x",
                 "cp311_linux_x86_64",
                 "cp311_osx_aarch64",
-                "cp311_osx_x86_64",
-                "cp311_windows_x86_64"
+                "cp311_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
@@ -471,8 +467,7 @@
                 "cp311_linux_s390x",
                 "cp311_linux_x86_64",
                 "cp311_osx_aarch64",
-                "cp311_osx_x86_64",
-                "cp311_windows_x86_64"
+                "cp311_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
@@ -499,8 +494,7 @@
                 "cp311_linux_s390x",
                 "cp311_linux_x86_64",
                 "cp311_osx_aarch64",
-                "cp311_osx_x86_64",
-                "cp311_windows_x86_64"
+                "cp311_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp311-cp311-musllinux_1_2_aarch64.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
@@ -527,8 +521,7 @@
                 "cp311_linux_s390x",
                 "cp311_linux_x86_64",
                 "cp311_osx_aarch64",
-                "cp311_osx_x86_64",
-                "cp311_windows_x86_64"
+                "cp311_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp311-cp311-musllinux_1_2_armv7l.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
@@ -555,8 +548,7 @@
                 "cp311_linux_s390x",
                 "cp311_linux_x86_64",
                 "cp311_osx_aarch64",
-                "cp311_osx_x86_64",
-                "cp311_windows_x86_64"
+                "cp311_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp311-cp311-musllinux_1_2_x86_64.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
@@ -565,34 +557,6 @@
               "sha256": "f7d98736704548a001fb072becdfbda9d67dde8fd993320494c2370243c92f87",
               "urls": [
                 "https://files.pythonhosted.org/packages/fb/dd/3ce602dddc5c048a7fbb7bd510ef0604dc672a31b743f8ca958349ede8bb/python_bidi-0.6.0-cp311-cp311-musllinux_1_2_x86_64.whl"
-              ]
-            }
-          },
-          "pip_311_python_bidi_cp311_none_win_amd64_b7847f88": {
-            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
-            "ruleClassName": "whl_library",
-            "attributes": {
-              "dep_template": "@pip//{name}:{target}",
-              "envsubst": [
-                "PIP_INDEX_URL"
-              ],
-              "experimental_target_platforms": [
-                "cp311_linux_aarch64",
-                "cp311_linux_arm",
-                "cp311_linux_ppc",
-                "cp311_linux_s390x",
-                "cp311_linux_x86_64",
-                "cp311_osx_aarch64",
-                "cp311_osx_x86_64",
-                "cp311_windows_x86_64"
-              ],
-              "filename": "python_bidi-0.6.0-cp311-none-win_amd64.whl",
-              "python_interpreter_target": "@@rules_python~~python~python_3_11_host//:python",
-              "repo": "pip_311",
-              "requirement": "python-bidi==0.6.0",
-              "sha256": "b7847f882442179fd67608958c1ce8af9ee4b051a921342c7a3bc071e2ba0fc4",
-              "urls": [
-                "https://files.pythonhosted.org/packages/27/fc/381bb2c1b1595de5605ea8d10c9d5c0690a38e7f9667bc34213e78bd25b2/python_bidi-0.6.0-cp311-none-win_amd64.whl"
               ]
             }
           },
@@ -611,8 +575,7 @@
                 "cp311_linux_s390x",
                 "cp311_linux_x86_64",
                 "cp311_osx_aarch64",
-                "cp311_osx_x86_64",
-                "cp311_windows_x86_64"
+                "cp311_osx_x86_64"
               ],
               "extra_pip_args": [],
               "filename": "python_bidi-0.6.0.tar.gz",
@@ -640,8 +603,7 @@
                 "cp39_linux_s390x",
                 "cp39_linux_x86_64",
                 "cp39_osx_aarch64",
-                "cp39_osx_x86_64",
-                "cp39_windows_x86_64"
+                "cp39_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp39-cp39-macosx_10_12_x86_64.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_9_host//:python",
@@ -668,8 +630,7 @@
                 "cp39_linux_s390x",
                 "cp39_linux_x86_64",
                 "cp39_osx_aarch64",
-                "cp39_osx_x86_64",
-                "cp39_windows_x86_64"
+                "cp39_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp39-cp39-macosx_11_0_arm64.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_9_host//:python",
@@ -696,8 +657,7 @@
                 "cp39_linux_s390x",
                 "cp39_linux_x86_64",
                 "cp39_osx_aarch64",
-                "cp39_osx_x86_64",
-                "cp39_windows_x86_64"
+                "cp39_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_9_host//:python",
@@ -724,8 +684,7 @@
                 "cp39_linux_s390x",
                 "cp39_linux_x86_64",
                 "cp39_osx_aarch64",
-                "cp39_osx_x86_64",
-                "cp39_windows_x86_64"
+                "cp39_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp39-cp39-manylinux_2_17_armv7l.manylinux2014_armv7l.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_9_host//:python",
@@ -752,8 +711,7 @@
                 "cp39_linux_s390x",
                 "cp39_linux_x86_64",
                 "cp39_osx_aarch64",
-                "cp39_osx_x86_64",
-                "cp39_windows_x86_64"
+                "cp39_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_9_host//:python",
@@ -780,8 +738,7 @@
                 "cp39_linux_s390x",
                 "cp39_linux_x86_64",
                 "cp39_osx_aarch64",
-                "cp39_osx_x86_64",
-                "cp39_windows_x86_64"
+                "cp39_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_9_host//:python",
@@ -808,8 +765,7 @@
                 "cp39_linux_s390x",
                 "cp39_linux_x86_64",
                 "cp39_osx_aarch64",
-                "cp39_osx_x86_64",
-                "cp39_windows_x86_64"
+                "cp39_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_9_host//:python",
@@ -836,8 +792,7 @@
                 "cp39_linux_s390x",
                 "cp39_linux_x86_64",
                 "cp39_osx_aarch64",
-                "cp39_osx_x86_64",
-                "cp39_windows_x86_64"
+                "cp39_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp39-cp39-musllinux_1_2_aarch64.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_9_host//:python",
@@ -864,8 +819,7 @@
                 "cp39_linux_s390x",
                 "cp39_linux_x86_64",
                 "cp39_osx_aarch64",
-                "cp39_osx_x86_64",
-                "cp39_windows_x86_64"
+                "cp39_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp39-cp39-musllinux_1_2_armv7l.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_9_host//:python",
@@ -892,8 +846,7 @@
                 "cp39_linux_s390x",
                 "cp39_linux_x86_64",
                 "cp39_osx_aarch64",
-                "cp39_osx_x86_64",
-                "cp39_windows_x86_64"
+                "cp39_osx_x86_64"
               ],
               "filename": "python_bidi-0.6.0-cp39-cp39-musllinux_1_2_x86_64.whl",
               "python_interpreter_target": "@@rules_python~~python~python_3_9_host//:python",
@@ -902,34 +855,6 @@
               "sha256": "e511838eeff5b76f053afe0b936920e5aca91ea597c43caa196e0c6b5cd0d623",
               "urls": [
                 "https://files.pythonhosted.org/packages/94/0d/f450505861cb5e62f26b662ee82ff0c0b42c803e64f0d50e6995d6050c86/python_bidi-0.6.0-cp39-cp39-musllinux_1_2_x86_64.whl"
-              ]
-            }
-          },
-          "pip_39_python_bidi_cp39_none_win_amd64_75243e17": {
-            "bzlFile": "@@rules_python~//python/private/pypi:whl_library.bzl",
-            "ruleClassName": "whl_library",
-            "attributes": {
-              "dep_template": "@pip//{name}:{target}",
-              "envsubst": [
-                "PIP_INDEX_URL"
-              ],
-              "experimental_target_platforms": [
-                "cp39_linux_aarch64",
-                "cp39_linux_arm",
-                "cp39_linux_ppc",
-                "cp39_linux_s390x",
-                "cp39_linux_x86_64",
-                "cp39_osx_aarch64",
-                "cp39_osx_x86_64",
-                "cp39_windows_x86_64"
-              ],
-              "filename": "python_bidi-0.6.0-cp39-none-win_amd64.whl",
-              "python_interpreter_target": "@@rules_python~~python~python_3_9_host//:python",
-              "repo": "pip_39",
-              "requirement": "python-bidi==0.6.0",
-              "sha256": "75243e17201831d8f626be57a1ba52fe4f62594eb8bc777e2a81785a93745466",
-              "urls": [
-                "https://files.pythonhosted.org/packages/cf/e5/98205755533ca635f3a8a0e5ca51bccd91601fcc7a0d06048a19d441f15d/python_bidi-0.6.0-cp39-none-win_amd64.whl"
               ]
             }
           },
@@ -948,8 +873,7 @@
                 "cp39_linux_s390x",
                 "cp39_linux_x86_64",
                 "cp39_osx_aarch64",
-                "cp39_osx_x86_64",
-                "cp39_windows_x86_64"
+                "cp39_osx_x86_64"
               ],
               "extra_pip_args": [],
               "filename": "python_bidi-0.6.0.tar.gz",
@@ -3570,7 +3494,7 @@
               "repo_name": "pip",
               "extra_hub_aliases": {},
               "whl_map": {
-                "python_bidi": "{\"pip_311_python_bidi_cp311_cp311_macosx_10_12_x86_64_b3984f4d\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-macosx_10_12_x86_64.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_macosx_11_0_arm64_603b4485\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-macosx_11_0_arm64.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_manylinux_2_17_aarch64_9d4f2a41\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_manylinux_2_17_armv7l_bb50d508\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-manylinux_2_17_armv7l.manylinux2014_armv7l.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_manylinux_2_17_ppc64le_fd5d2c89\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_manylinux_2_17_s390x_08c7ebd0\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_manylinux_2_17_x86_64_3f8689da\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_musllinux_1_2_aarch64_4019165c\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-musllinux_1_2_aarch64.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_musllinux_1_2_armv7l_6684e0f1\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-musllinux_1_2_armv7l.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_musllinux_1_2_x86_64_f7d98736\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-musllinux_1_2_x86_64.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_none_win_amd64_b7847f88\":[{\"filename\":\"python_bidi-0.6.0-cp311-none-win_amd64.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_sdist_0665a082\":[{\"filename\":\"python_bidi-0.6.0.tar.gz\",\"version\":\"3.11\"}],\"pip_39_python_bidi_cp39_cp39_macosx_10_12_x86_64_332506db\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-macosx_10_12_x86_64.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_macosx_11_0_arm64_c066bfff\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-macosx_11_0_arm64.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_manylinux_2_17_aarch64_36fe41cc\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_manylinux_2_17_armv7l_018747ed\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-manylinux_2_17_armv7l.manylinux2014_armv7l.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_manylinux_2_17_ppc64le_6aae20bb\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_manylinux_2_17_s390x_600236fb\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_manylinux_2_17_x86_64_e9dc0ac1\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_musllinux_1_2_aarch64_de1b836e\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-musllinux_1_2_aarch64.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_musllinux_1_2_armv7l_cfb45fec\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-musllinux_1_2_armv7l.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_musllinux_1_2_x86_64_e511838e\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-musllinux_1_2_x86_64.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_none_win_amd64_75243e17\":[{\"filename\":\"python_bidi-0.6.0-cp39-none-win_amd64.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_sdist_0665a082\":[{\"filename\":\"python_bidi-0.6.0.tar.gz\",\"version\":\"3.9\"}]}"
+                "python_bidi": "{\"pip_311_python_bidi_cp311_cp311_macosx_10_12_x86_64_b3984f4d\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-macosx_10_12_x86_64.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_macosx_11_0_arm64_603b4485\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-macosx_11_0_arm64.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_manylinux_2_17_aarch64_9d4f2a41\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_manylinux_2_17_armv7l_bb50d508\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-manylinux_2_17_armv7l.manylinux2014_armv7l.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_manylinux_2_17_ppc64le_fd5d2c89\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_manylinux_2_17_s390x_08c7ebd0\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-manylinux_2_17_s390x.manylinux2014_s390x.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_manylinux_2_17_x86_64_3f8689da\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_musllinux_1_2_aarch64_4019165c\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-musllinux_1_2_aarch64.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_musllinux_1_2_armv7l_6684e0f1\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-musllinux_1_2_armv7l.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_cp311_cp311_musllinux_1_2_x86_64_f7d98736\":[{\"filename\":\"python_bidi-0.6.0-cp311-cp311-musllinux_1_2_x86_64.whl\",\"version\":\"3.11\"}],\"pip_311_python_bidi_sdist_0665a082\":[{\"filename\":\"python_bidi-0.6.0.tar.gz\",\"version\":\"3.11\"}],\"pip_39_python_bidi_cp39_cp39_macosx_10_12_x86_64_332506db\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-macosx_10_12_x86_64.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_macosx_11_0_arm64_c066bfff\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-macosx_11_0_arm64.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_manylinux_2_17_aarch64_36fe41cc\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_manylinux_2_17_armv7l_018747ed\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-manylinux_2_17_armv7l.manylinux2014_armv7l.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_manylinux_2_17_ppc64le_6aae20bb\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_manylinux_2_17_s390x_600236fb\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_manylinux_2_17_x86_64_e9dc0ac1\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_musllinux_1_2_aarch64_de1b836e\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-musllinux_1_2_aarch64.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_musllinux_1_2_armv7l_cfb45fec\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-musllinux_1_2_armv7l.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_cp39_cp39_musllinux_1_2_x86_64_e511838e\":[{\"filename\":\"python_bidi-0.6.0-cp39-cp39-musllinux_1_2_x86_64.whl\",\"version\":\"3.9\"}],\"pip_39_python_bidi_sdist_0665a082\":[{\"filename\":\"python_bidi-0.6.0.tar.gz\",\"version\":\"3.9\"}]}"
               },
               "packages": [
                 "python_bidi"
